@@ -1,0 +1,72 @@
+.main-frame {
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  padding: 16px;
+  border: black solid 2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddedf3;
+  line-height: 150%;
+  font-size: 18px;
+}
+
+.input-block {
+  position: relative;
+  width: 260px;
+}
+
+.input-password {
+  width: 200px;
+  padding: 5px;
+}
+
+.clear-button {
+  color: firebrick;
+  right: 22px;
+  top: 2px;
+  cursor: pointer;
+}
+
+.eye-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  right: 25px;
+  top: 7px;
+  z-index: 10;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.sections-frame {
+  display: flex;
+  flex-direction: row;
+}
+
+.color-section {
+  width: 60px;
+  height: 7px;
+  background-color: #b6b3b3;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.short,
+.first.easy {
+  background-color: red;
+}
+
+.first.medium,
+.second.medium {
+  background-color: yellow;
+}
+
+.strong {
+  background-color: green;
+}
